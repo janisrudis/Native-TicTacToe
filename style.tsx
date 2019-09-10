@@ -20,7 +20,7 @@ export const styles = StyleSheet.create({
     backgroundColor: "white"
   },
   cellContent: {
-    backgroundColor: "red",
+    backgroundColor: "#46dd6c",
     color: "white",
     width: cellSize,
     height: cellSize,

@@ -17,8 +17,8 @@ const WinLines = () => {
         <Animatable.View animation={game.gameOverAnimation}  style={game.showWin5() ? styles.showWin5 : styles.default}></Animatable.View>
         <Animatable.View animation={game.gameOverAnimation}  style={game.showWin6() ? styles.showWin6 : styles.default}></Animatable.View>
 
-        <Animatable.View animation={game.gameOverAnimation}  style={game.showWin7() ? styles.showWin7 : styles.showWin7}></Animatable.View>
-        <Animatable.View animation={game.gameOverAnimation}  style={game.showWin8() ? styles.showWin8 : styles.showWin8}></Animatable.View>
+        <Animatable.View animation={game.gameOverAnimation}  style={game.showWin7() ? styles.showWin7 : styles.default}></Animatable.View>
+        <Animatable.View animation={game.gameOverAnimation}  style={game.showWin8() ? styles.showWin8 : styles.default}></Animatable.View>
         </View>
   );
 };
